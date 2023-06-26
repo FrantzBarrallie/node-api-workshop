@@ -8,7 +8,7 @@ const {requireAll} = require('qfiles');
 const {mongoose, connectMongoose} = require('./utils/mongoose');
 
 console.log(`App ${process.pid} start...`);
-
+console.log(`${process.env.MONGO_SERVER} ...`);
 
 /*----------------------------------------------------------------------------*\
   Global scope
